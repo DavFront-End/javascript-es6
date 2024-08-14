@@ -26,9 +26,9 @@ aplicações web.
 variáveis sendo 'vazadas' para outros escopos por causa do
 mesmo nome;
 
-# Bloco - É tudo aquilo que está entre uma abertura e a fechadura de uma chave.
+* Bloco - É tudo aquilo que está entre uma abertura e a fechadura de uma chave.
 
-# Funções - A função tem um bloco especial você não pode acessar váriaveis lá de dentro sem que ela te retorne mesmo se for uma var.
+* Funções - A função tem um bloco especial você não pode acessar váriaveis lá de dentro sem que ela te retorne mesmo se for uma var.
 
 # Arrow Functions
 
