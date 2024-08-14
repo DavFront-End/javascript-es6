@@ -1,4 +1,4 @@
-                   # O que é o JS ES6 ?
+ # O que é o JS ES6 ?
 
 * Uma versão "nova" de JS que trouxe diversas funcionalidades
 * São os conhecimentos base para aprender os frameworks modernos
@@ -15,7 +15,7 @@ Um exemplo desses compiladores é o Babel.
 eles por isso eles são cada vez  mais usados para desenvolver
 aplicações web.
 
-                    # Recursos do ES6
+# Recursos do ES6
 
 # Variáveis com let e const
 
