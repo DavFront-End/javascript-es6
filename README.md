@@ -49,5 +49,9 @@ mesmo nome;
 * Quando utilizamos Map, estamos querendo modificar os dados do array;
 * Há vários métodos de array importantes no ES6, este é um deles;
 
+# Template Literals
 
-
+* O recurso de template literals permite concatenar uma string de forma mais simples;
+* Podemos colocar as variáveis entre o texto;
+* A string fica entre: `texto`
+* E as variáveis são colocadas desta maneira: ${variavel}
