@@ -53,5 +53,11 @@ mesmo nome;
 
 * O recurso de template literals permite concatenar uma string de forma mais simples;
 * Podemos colocar as variáveis entre o texto;
-* A string fica entre: `texto`
+* A string fica entre: ``
 * E as variáveis são colocadas desta maneira: ${variavel}
+
+# Destructuring
+
+* O destructuring é um recurso que pode ser utilizado em arrays e objetos;
+* A ideia é transformar os itens de um desses dados em variáveis;
+* Simplificando a declaração de n variáveis para apenas 1 linha!
