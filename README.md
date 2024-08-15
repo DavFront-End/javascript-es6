@@ -26,7 +26,7 @@ aplicações web.
 variáveis sendo 'vazadas' para outros escopos por causa do
 mesmo nome;
 
-* Bloco - É tudo aquilo que está entre uma abertura e a fechadura de uma chave.
+* Bloco - É tudo aquilo que está entre uma abertura e o fechamento de uma chave.
 
 * Funções - A função tem um bloco especial você não pode acessar váriaveis lá de dentro sem que ela te retorne mesmo se for uma var.
 
@@ -75,4 +75,11 @@ mesmo nome;
 * Antes as classes eram baseadas em funções (constructor functions);
 * Quando nós precissamos criar entidades que são semelhantes na estrutura mais possuim valores diferentes usamos
 POO
+
+# Herança 
+
+* Podemos criar herança de classes com ES6 também;
+* Utilizamos a palavra extends para referir a classe herdada;
+* E as propiedades que utilizamos dela, devem ser enviadas via função super;
+
 

@@ -1,24 +1,39 @@
 // 1 - classe
 
 class Product {
-    constructor(name, price) {
-        this.name = name;
-        this.price = price;
-    }
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
 
-    productWithDiscount(discount) {
-        return this.price * ((100 - discount) / 100);
-    }
+  productWithDiscount(discount) {
+    return this.price * ((100 - discount) / 100);
+  }
 }
 
-const shirt = new Product('Camisa', 20);
+const shirt = new Product("Camisa", 20);
 console.log(shirt);
 
-const sneakers = new Product('Jordan', 600);
-console.log(sneakers);
+class ProductWithAttributes extends Product {
+  constructor(name, price, colors) {
+    super(name, price);
+    this.colors = colors;
+  }
 
-const pants = new Product('Jeans', 100);
-console.log(pants);
+  showColors() {
+    console.log("As cores são:");
+    this.colors.forEach((color) => {
+      console.log(color);
+    });
+  }
+}
 
-const jacket = new Product('Jaqueta', 150);
-console.log(jacket);
+const hat = new ProductWithAttributes("Chapéu", 29.9, [
+  "Vermelho",
+  "Verde",
+  "Azul",
+]);
+
+console.log(hat.name);
+console.log(hat.price);
+hat.showColors();
