@@ -67,3 +67,12 @@ mesmo nome;
 * O spread pode ser utiliado também em array e objetos;
 * Utilizamos para constituir novos valores destes dados em outros arrays e objetos;
 * Ou seja, podemos unir vários array de maneira simples ou adicionar valores de um objeto a outro, por exemplo;
+
+# Classes
+
+* As classes são recursos fundamentais para progamar com orientação a objetos;
+* Agora o JS tem este recurso implementado, onde temos acesso a: constructor, propiedades, métodos e mais;
+* Antes as classes eram baseadas em funções (constructor functions);
+* Quando nós precissamos criar entidades que são semelhantes na estrutura mais possuim valores diferentes usamos
+POO
+
